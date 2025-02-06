@@ -1,0 +1,214 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", "Roboto", "Ubuntu", "sans-serif";
+    
+}
+body{
+    background-color: black;
+    color: white;
+}
+ .container{
+    background:linear-gradient(to left ,rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./image\ background.jpg);
+    min-height:100vh;
+    
+} 
+nav{
+    display: flex;
+    justify-content: center;
+}
+nav .img img{
+    width: 20%;
+    margin-left: 110px;
+}
+nav .btn{
+    margin-top: 40px;
+    margin-right: 110px;
+    display: flex;
+    gap: 10px;
+}
+.btn .eng{
+    width: 110px;
+    height: 30px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    font-size: 17px;
+    border-radius: 3px;
+}
+.btn .sgn{
+    width: 80px;
+    height: 35px;
+    background-color: rgb(203, 0, 0);
+    color: white;
+    border: none;
+    font-size: 17px;
+    border-radius: 3px;
+}
+.eng:hover{
+    background-color:black;
+}
+
+.main{
+    text-align: center;
+    color: white;
+    margin-top: 130px;
+
+    
+}
+.main h1{
+    font-size: 50px;
+}
+.main h3{
+font-size: 35px;
+}
+.main p{
+    font-size: 20px;
+}
+
+.input{
+    margin: 35px;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    
+}
+.main input{
+    height: 35px;
+    width: 300px;
+    padding-inline:20px;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    
+}
+
+.main input::placeholder{
+    color: white;
+    font-size: larger;
+}
+.main button{
+    height: 45;
+    width: 190px;
+    background-color: red;
+    color: white;
+    font-size: 24px;
+}
+.first{
+    padding: 10px;
+    /* margin-inline:50px; */
+    display: flex;
+    align-items: center;
+    border-top: 3px solid gray;
+    color: white;
+    background-color: black;
+}
+
+.first img{
+    position: relative;
+    z-index: 1;
+}
+
+
+.first .vid{
+    position: absolute;
+    right: 85px;
+    top: 730px;
+
+}
+.first .vid1{
+    position: absolute;
+    left:1000px;
+    top:1800px;
+    /* height: 1300px; */
+    width: 383px;
+    
+}
+.first .text h1 {
+font-size: 50px;
+}
+.first .text p {
+    font-size: 25px;
+}
+
+
+
+.h1{
+    border-top: 3px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+.h1 h1{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    padding: 15px;
+}
+
+.buttons{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    /* border-top: 3px solid gray; */
+}
+
+.buttons button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70vw;
+    height: 75px;
+    margin-bottom: 20px;
+    padding: 24px;
+    background-color: #2d2d2d;
+    color: white;
+    font-size: 24px;
+}
+
+
+
+.input2 p {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 35px;
+
+}
+.input2 input{
+    height: 35px;
+    width: 300px;
+    padding-inline:20px;
+    margin-left: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    
+}
+.input2 button{
+    height: 35;
+    width: 110px;
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    
+}
+.footer {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    
+    
+}
